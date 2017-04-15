@@ -7,6 +7,11 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
+	<attr path="/api/package[@name='com.mapzen.lost']" name="managedName">Mapzen.Lost</attr>
 	<attr path="/api/package[@name='com.mapzen.android.lost.api']" name="managedName">Mapzen.Lost.Api</attr>
-	<attr path="/api/package[@name='com.mapzen.android.lost.internal']" name="managedName">Mapzen.Lost.Internal</attr>
+	
+	<attr path="/api/package[@name='com.mapzen.android.lost.api']/class[@name='Status']" name="managedName">ApiStatus</attr>
+	<attr path="/api/package[@name='com.mapzen.android.lost.api']/class[@name='Status']/method[@name='getStatus']" name="propertyName">Status</attr>
+	
+	<remove-node path="/api/package[@name='com.mapzen.android.lost.internal']" />
 </metadata>
