@@ -9,7 +9,7 @@ using Android.App;
 [assembly: AssemblyDescription("A drop-in replacement for Google Play services location APIs for Android")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("NAXAM CO.,LTD")]
-[assembly: AssemblyProduct("OSS")]
+[assembly: AssemblyProduct("Xamarin Bindings")]
 [assembly: AssemblyCopyright("2017 @ NAXAM CO.,LTD")]
 [assembly: AssemblyTrademark("NAXAM")]
 [assembly: AssemblyCulture("")]
@@ -18,7 +18,8 @@ using Android.App;
 // The form "{Major}.{Minor}.*" will automatically update the build and revision,
 // and "{Major}.{Minor}.{Build}.*" will update just the revision.
 
-[assembly: AssemblyVersion("2.1.2")]
+[assembly: AssemblyVersion("2.2.0")]
+[assembly: AssemblyInformationalVersion("2.2.0")]
 
 // The following attributes are used to specify the signing key for the assembly, 
 // if desired. See the Mono documentation for more information about signing.
