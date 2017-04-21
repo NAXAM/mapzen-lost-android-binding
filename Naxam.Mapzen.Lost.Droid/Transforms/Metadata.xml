@@ -7,11 +7,11 @@
   This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
   <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
   -->
-	<attr path="/api/package[@name='com.mapzen.lost']" name="managedName">Mapzen.Lost</attr>
-	<attr path="/api/package[@name='com.mapzen.android.lost.api']" name="managedName">Mapzen.Lost.Api</attr>
-	
 	<attr path="/api/package[@name='com.mapzen.android.lost.api']/class[@name='Status']" name="managedName">ApiStatus</attr>
 	<attr path="/api/package[@name='com.mapzen.android.lost.api']/class[@name='Status']/method[@name='getStatus']" name="propertyName">Status</attr>
 	
 	<remove-node path="/api/package[@name='com.mapzen.android.lost.internal']" />
+	<remove-node path="/api/package[@name='com.mapzen.android.lost.api']/interface[@name='FusedLocationProviderApi']/method[@name='isProviderEnabled' and count(parameter)=2 and parameter[1][@type='com.mapzen.android.lost.api.LostApiClient'] and parameter[2][@type='java.lang.String']]" />
+	<remove-node path="/api/package[@name='com.mapzen.android.lost.api']/interface[@name='LocationListener']/method[@name='onProviderDisabled' and count(parameter)=1 and parameter[1][@type='java.lang.String']]" />
+	<remove-node path="/api/package[@name='com.mapzen.android.lost.api']/interface[@name='LocationListener']/method[@name='onProviderEnabled' and count(parameter)=1 and parameter[1][@type='java.lang.String']]" />
 </metadata>
