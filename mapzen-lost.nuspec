@@ -3,17 +3,17 @@
     <metadata>
         <!-- Required elements-->
         <id>Naxam.Mapzen.Lost.Droid</id>
-       <version>2.2.0</version>
-        <description>Xamarin Binding Library - Mapzen Lost, A drop-in replacement for Google Play services location APIs for Android</description>
-        <authors>Vu Duc Tuyen</authors>
+        <version>3.0.4</version>
+        <description>A drop-in replacement for Google Play services location APIs for Android</description>
+        <authors>NAXAM</authors>
         <owners>NAXAM CO.,LTD</owners>
         <requireLicenseAcceptance>false</requireLicenseAcceptance>
-
-        <!-- Optional elements -->
-        <title>Naxam - Mapzen Lost</title>
-        <summary>Xamarin Binding Library - Mapzen Lost</summary>
+        <title>Naxam - Mapzen Lost for Android</title>
+        <releaseNotes>Mapzen Lost v3.0.4</releaseNotes>
+        <summary>Xamarin.Android Binding Library - Mapzen Lost</summary>
+        <iconUrl>https://avatars0.githubusercontent.com/u/5435747</iconUrl>
         <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
-        <projectUrl>https://github.com/NAXAM/xam-mapzen-lost</projectUrl>
+        <projectUrl>https://github.com/NAXAM/mapzen-lost-android-binding</projectUrl>
         <copyright>Copyright (c) 2017 NAXAM</copyright>
         <tags>Xamarin.Android, Mapzen, Lost</tags>
         <dependencies>

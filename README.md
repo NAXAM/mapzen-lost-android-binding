@@ -1,6 +1,46 @@
-# Xamarin Mapzen Lost Binding Library
-Xamarin Binding Library for [Mapzen Lost](https://github.com/mapzen/lost), A drop-in replacement for Google Play services location APIs for Android http://mapzen.github.io/lost/
+<img src="./art/repo_header.png" alt="Mapzen Lost for Xamarin.Android" width="728" />
+
+# Mapzen Lost for Xamarin.Android
+A Xamarin.Android binding library for [Mapzen Lost](https://github.com/mapzen/lost) library.
+
+## About
+This project is maintained by Naxam Co.,Ltd.<br>
+We specialize in developing mobile applications using Xamarin and native technology stack.<br>
+
+**Looking for developers for your project?**<br>
+
+<a href="mailto:tuyen@naxam.net"> 
+<img src="https://github.com/NAXAM/naxam.github.io/blob/master/assets/img/hire_button.png?raw=true" height="40"></a> <br>
+
+## Installation
 
 ```
 Install-Package Naxam.Mapzen.Lost.Droid
 ```
+
+## Usage
+
+Plz follow the official guide [here](https://github.com/mapzen/lost).
+
+## License
+
+Mapzen Lost binding library for Android is released under the MIT license.
+See [LICENSE](./LICENSE) for details.
+
+# Get our showcases on AppStore/PlayStore
+Try our showcases to know more about our capabilities. 
+
+<a href="https://itunes.apple.com/us/developer/tuyen-vu/id1255432728/" > 
+<img src="https://github.com/NAXAM/imagepicker-android-binding/raw/master/art/apple_store.png" width="117" height="34"></a>
+
+<a href="https://play.google.com/store/apps/developer?id=NAXAM+CO.,+LTD" > 
+<img src="https://github.com/NAXAM/imagepicker-android-binding/raw/master/art/google_store.png" width="117" height="34"></a>
+
+Contact us if interested.
+
+<a href="mailto:tuyen@naxam.net"> 
+<img src="https://github.com/NAXAM/naxam.github.io/blob/master/assets/img/hire_button.png" height="34"></a> <br>
+<br>
+
+Follow us for the latest updates<br>[![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=https://github.com/NAXAM/mapzen-lost-android-binding)
+[![Twitter Follow](https://img.shields.io/twitter/follow/naxamco.svg?style=social)](https://twitter.com/naxamco)
